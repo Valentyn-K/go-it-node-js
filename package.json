@@ -1,0 +1,32 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "node-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node module2/express.js",
+    "dev": "nodemon module2/express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valentyn-K/go-it-node-js.git"
+  },
+  "author": "Valentyn-K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valentyn-K/go-it-node-js/issues"
+  },
+  "homepage": "https://github.com/Valentyn-K/go-it-node-js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.1.1",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
